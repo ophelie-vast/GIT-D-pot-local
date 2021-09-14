@@ -1,0 +1,90 @@
+/* modifier taille police selon taille ecran */
+
+html { 
+    font-size: 100%; 
+}
+
+body { 
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 300px) {
+    html { 
+        font-size: 70%; 
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    html { 
+        font-size: 80%; 
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    html { 
+        font-size: 100%; 
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html { 
+        font-size: 150%; 
+    }
+}
+
+/* modification affiche selon taille de l'écran */
+@media only screen and (max-width: 1026px) {
+    /* enleve le rectangle */
+    #rectangle { 
+        display: none;
+    }
+}
+
+/* modifier menu selon taille ecran */
+@media only screen and (max-width: 1026px) {
+    a {
+        display: block;
+    }
+}
+
+/* régler taille image logo (en haut à droite) */
+img {
+    width: 10%;
+}
+
+/* écriture en haut à droite */
+#jardin {
+   margin-left: 60%;
+   font-size: 2em;
+}
+
+/* modification de la balise ul (ici sommaire) */
+ul{
+    background-color: black;
+    color: white;
+    line-height: 3em;
+}
+
+/* régler taille image promo (en dessous sommaire) */
+.promo{
+width: 100%;
+}
+
+/* tout ce qui encadre la div gauche et la div rectangle */
+#tout{
+    display: flex;
+    width: 100%;
+    }
+
+/* modification de la div rectangle (à droite) */
+#tout #rectangle{
+    width:350px;
+    height:auto;
+    background:grey; 
+}
+
+/* modification de la div gauche (à gauche) */
+#tout #gauche{
+    float:left;
+    width:80%;
+}
