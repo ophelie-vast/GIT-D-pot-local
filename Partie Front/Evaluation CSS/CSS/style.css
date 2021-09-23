@@ -33,7 +33,7 @@ body {
 }
 
 /* modification affiche selon taille de l'écran */
-@media only screen and (max-width: 1026px) {
+@media only screen and (max-width: 768px) {
     /* enleve le rectangle */
     #rectangle { 
         display: none;
@@ -41,7 +41,7 @@ body {
 }
 
 /* modifier menu selon taille ecran */
-@media only screen and (max-width: 1026px) {
+@media only screen and (max-width: 768px) {
     a {
         display: block;
     }
@@ -87,4 +87,8 @@ width: 100%;
 #tout #gauche{
     float:left;
     width:80%;
+}
+
+#container_tableau  { 
+    overflow-x:auto; 
 }

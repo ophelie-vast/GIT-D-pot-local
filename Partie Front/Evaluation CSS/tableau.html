@@ -23,24 +23,25 @@
 
 <body>
 
-    <img src="jarditou_html_zip/images/jarditou_logo.jpg" alt="logo de jarditou">
+    <header>
+    <img src="jarditou_html_zip/images/jarditou_logo.jpg" alt="logo de jarditou" title="logo jarditou">
 
     <div id="jardin">Tout sur le jardin</div>
     
     <br>
 
-        <ul> 
+       <nav> <ul> 
 
              <a href="index.html" title="Accueil">Accueil</a> 
  
              <a href="tableau.html" title="tableau">Tableau</a>
              <a href="contact.html" title="contatc">Contact</a>
 
-        </ul>
+        </ul> </nav>
 
-        <img src="jarditou_html_zip/images/promotion.jpg" alt="promo jarditou" class="promo">
+        <img src="jarditou_html_zip/images/promotion.jpg" alt="promo jarditou" title="promotion jarditou" class="promo">
 
-     <br>
+    </header>
 
      <h1>Tableau</h1>
 
@@ -48,22 +49,23 @@
 
      <br>
 
-        <table>
+     <div id="container_tableau">
+     <table>
                 <tbody>
 
-    
-
+                <thead>
                     <tr>
-                        <td> <b> Photo </b> </td>
-                        <td> <b> ID </b> </td>
-                        <td> <b> Catégorie </b> </td>
-                        <td> <b> Libellé </b> </td>
-                        <td> <b> Prix </b> </td>
-                        <td> <b> Couleur </b> </td>
+                        <th> <b> Photo </b> </th>
+                        <th> <b> ID </b> </th>
+                        <th> <b> Catégorie </b> </th>
+                        <th> <b> Libellé </b> </th>
+                        <th> <b> Prix </b> </th>
+                        <th> <b> Couleur </b> </th>
                     </tr>
+                </thead>    
 
                     <tr>
-                        <td> <img src="jarditou_html_zip/jarditou_photos/7.jpg.jpg" alt="1er barbecue" width=100> </td>
+                        <td> <img src="jarditou_html_zip/jarditou_photos/7.jpg.jpg" alt="1er barbecue" title="1er barbec" width=100> </td>
                         <td> 7 </td>
                         <td> Barbecues </td>
                         <td> Aramis </td>
@@ -72,7 +74,7 @@
                     </tr>
 
                     <tr>
-                        <td> <img src="jarditou_html_zip/jarditou_photos/8.jpg" alt ="2eme barbecue" width=100> </td>
+                        <td> <img src="jarditou_html_zip/jarditou_photos/8.jpg" alt ="2eme barbecue" title="2eme barbec" width=100> </td>
                         <td>8</td>
                         <td>Barbecues</td>
                         <td>Athos</td>
@@ -81,7 +83,7 @@
                     </tr>
 
                     <tr>
-                        <td> <img src="jarditou_html_zip/jarditou_photos/11.jpg" alt="3eme barcecue" width=100> </td>
+                        <td> <img src="jarditou_html_zip/jarditou_photos/11.jpg" alt="3eme barcecue" title="3eme barbec" width=100> </td>
                         <td>11</td>
                         <td>Barbecues</td>
                         <td>Clatronic </td>
@@ -90,7 +92,7 @@
                      </tr>
 
                     <tr>
-                        <td> <img src="jarditou_html_zip/jarditou_photos/12.jpg" alt="4eme barbecue" width=100> </td>
+                        <td> <img src="jarditou_html_zip/jarditou_photos/12.jpg" alt="4eme barbecue" title="4eme barbec" width=100> </td>
                         <td>12</td>
                         <td>Barbecues</td>
                         <td>Camping</td>
@@ -99,7 +101,7 @@
                     </tr>
 
                     <tr>
-                        <td> <img src="jarditou_html_zip/jarditou_photos/13.jpg" alt="brouette" width=100> </td>
+                        <td> <img src="jarditou_html_zip/jarditou_photos/13.jpg" alt="brouette" title="brouette" width=100> </td>
                         <td>13</td>
                         <td>Brouette</td>
                         <td>Green</td>
@@ -108,14 +110,16 @@
                     </tr>
 
 
-                
+    
                 </tbody>    
             </table> 
+    </div>
     <br>
 
     <hr>
 
-    <ul> 
+<footer>    
+   <nav> <ul> 
           
         <a href="#" title="mention">Mention légales</a>           
         
@@ -123,8 +127,8 @@
         
         <a href="#" title="plan du site">Plan du site</a>
 
-    </ul>
-
+    </ul> </nav>
+</footer>
 
 </body>
     

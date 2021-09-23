@@ -11,32 +11,37 @@
 
   <title>Contact</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <style type="text/css">
+    a, a:hover, a:active, a:visited { color:white; }
+    </style>
     
- 
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 </head>
 
 
 <body>
 
-  <img src="jarditou_html_zip/images/jarditou_logo.jpg" alt="logo" width=400>
+  <header>
+  <img src="jarditou_html_zip/images/jarditou_logo.jpg" alt="logo de jarditou" title="logo jarditou">
 
-    <p>La qualité depuis 70 ans</p>
+  <div id="jardin">Tout sur le jardin</div>
     
     <br>
 
-      <ul> 
+     <nav> <ul> 
 
-        <li> <a href="index.html" title="Accueil">Accueil</a> </li> 
+        <a href="index.html" title="Accueil">Accueil</a> 
  
-        <li> <a href="tableau.html" title="tableau">Tableau</a> </li>
-        <li> <a href="contact.html" title="contatc">Contact</a> </li>
+        <a href="tableau.html" title="tableau">Tableau</a> 
+        <a href="contact.html" title="contatc">Contact</a> 
 
-      </ul>
+      </ul> </nav>
 
-     <img src="jarditou_html_zip/images/promotion.jpg" alt="logo jarditout" width="100%">
+      <img src="jarditou_html_zip/images/promotion.jpg" alt="promo jarditou" title="promotion jarditou" class="promo">
 
-     <br>
+     </header>
 
      <h1>Contact</h1>
 
@@ -52,7 +57,7 @@
 
           <br>
 
-          <label for="nom">Votre prénom*: </label><input required type="text" name="prenom" id="prenom" size="50" maxlength="50">
+          <label for="prenom">Votre prénom*: </label><input required type="text" name="prenom" id="prenom" size="50" maxlength="50">
 
           <p> Sexe* :
            
@@ -67,19 +72,19 @@
 
           <br>
 
-          <label for="nom">Code postal*: </label><input required type="text" name="cp" id="cp" size="50" maxlength="50">
+          <label for="cp">Code postal*: </label><input required type="text" name="cp" id="cp" size="50" maxlength="50">
 
           <br>
 
-          <label for="nom">Adresse*: </label><input required type="text" name="adresse" id="adresse" size="50" maxlength="50">
+          <label for="adresse">Adresse*: </label><input required type="text" name="adresse" id="adresse" size="50" maxlength="50">
 
           <br>
 
-          <label for="nom">Ville*: </label><input required type="text" name="ville" id="ville" size="50" maxlength="50">
+          <label for="ville">Ville*: </label><input required type="text" name="ville" id="ville" size="50" maxlength="50">
 
           <br>
 
-          <label for="nom">Email*: </label><input required type="text" name="mail" id="mail" size="50" maxlength="50" placeholder="dave.loper@afpa.fr">
+          <label for="mail">Email*: </label><input required type="text" name="mail" id="mail" size="50" maxlength="50" placeholder="dave.loper@afpa.fr">
 
            
       </fieldset>
@@ -102,7 +107,7 @@
 
         <br>
 
-        <label for="sujet">Votre question*:</label> <textarea rows="2" cols="30"></textarea>
+        <label for="question">Votre question*:</label> <textarea id="question" rows="2" cols="30"></textarea>
 
 
         </fieldset>
@@ -121,21 +126,19 @@
         </form>
 
         <hr>
-        
-        <ul> 
+       
+    <footer>    
+       <nav> <ul> 
 
-          <li><a href="#" title="mention">Mention légales</a></li>            
+          <a href="#" title="mention">Mention légales</a>            
           
-          <li><a href="#" title="horaires">Horaires</a></li> 
+          <a href="#" title="horaires">Horaires</a>
           
-          <li><a href="#" title="plan du site">Plan du site</a></li> 
+          <a href="#" title="plan du site">Plan du site</a> 
   
       
-        </ul>
-
-
-
-
+        </ul> </nav>
+     </footer>   
 
     </body>
     </html>
